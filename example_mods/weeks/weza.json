@@ -1,0 +1,50 @@
+{
+	"storyName": "Weza",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"weza",
+			"weza",
+			[
+				255,
+				204,
+				0
+			]
+		],
+		[
+			"drama",
+			"weza",
+			[
+				255,
+				204,
+				0
+			]
+		],
+		[
+			"bobek",
+			"wezaa",
+			[
+				255,
+				204,
+				0
+			]
+		]
+	],
+	"weekCharacters": [
+		"weza",
+		"bf",
+		"gf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Weza Week"
+}

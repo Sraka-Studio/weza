@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="back_weza.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="w0000" x="0" y="0" width="407" height="792" pivotX="30.95" pivotY="7.5" frameX="-2" frameY="-11" frameWidth="419" frameHeight="803"/>
+	<SubTexture name="w0001" x="0" y="0" width="407" height="792" frameX="-2" frameY="-11" frameWidth="419" frameHeight="803"/>
+	<SubTexture name="w0002" x="0" y="0" width="407" height="792" frameX="-2" frameY="-11" frameWidth="419" frameHeight="803"/>
+	<SubTexture name="w0003" x="0" y="0" width="407" height="792" frameX="-2" frameY="-11" frameWidth="419" frameHeight="803"/>
+	<SubTexture name="w0004" x="407" y="0" width="407" height="791" frameX="-4" frameY="-12" frameWidth="419" frameHeight="803"/>
+	<SubTexture name="w0005" x="407" y="0" width="407" height="791" frameX="-4" frameY="-12" frameWidth="419" frameHeight="803"/>
+	<SubTexture name="w0006" x="407" y="0" width="407" height="791" frameX="-4" frameY="-12" frameWidth="419" frameHeight="803"/>
+	<SubTexture name="w0007" x="407" y="0" width="407" height="791" frameX="-4" frameY="-12" frameWidth="419" frameHeight="803"/>
+	<SubTexture name="w0008" x="814" y="0" width="405" height="784" frameX="0" frameY="-19" frameWidth="419" frameHeight="803"/>
+	<SubTexture name="w0009" x="814" y="0" width="405" height="784" frameX="0" frameY="-19" frameWidth="419" frameHeight="803"/>
+	<SubTexture name="w0010" x="814" y="0" width="405" height="784" frameX="0" frameY="-19" frameWidth="419" frameHeight="803"/>
+	<SubTexture name="w0011" x="814" y="0" width="405" height="784" frameX="0" frameY="-19" frameWidth="419" frameHeight="803"/>
+	<SubTexture name="w0012" x="1219" y="0" width="405" height="792" frameX="0" frameY="-11" frameWidth="419" frameHeight="803"/>
+	<SubTexture name="w0013" x="1219" y="0" width="405" height="792" frameX="0" frameY="-11" frameWidth="419" frameHeight="803"/>
+	<SubTexture name="w0014" x="1219" y="0" width="405" height="792" frameX="0" frameY="-11" frameWidth="419" frameHeight="803"/>
+	<SubTexture name="w0015" x="1219" y="0" width="405" height="792" frameX="0" frameY="-11" frameWidth="419" frameHeight="803"/>
+	<SubTexture name="w0016" x="1624" y="0" width="410" height="803" frameX="-9" frameY="0" frameWidth="419" frameHeight="803"/>
+	<SubTexture name="w0017" x="1624" y="0" width="410" height="803" frameX="-9" frameY="0" frameWidth="419" frameHeight="803"/>
+	<SubTexture name="w0018" x="1624" y="0" width="410" height="803" frameX="-9" frameY="0" frameWidth="419" frameHeight="803"/>
+	<SubTexture name="w0019" x="1624" y="0" width="410" height="803" frameX="-9" frameY="0" frameWidth="419" frameHeight="803"/>
+	<SubTexture name="w0020" x="0" y="0" width="407" height="792" frameX="-2" frameY="-11" frameWidth="419" frameHeight="803"/>
+	<SubTexture name="w0021" x="0" y="0" width="407" height="792" frameX="-2" frameY="-11" frameWidth="419" frameHeight="803"/>
+	<SubTexture name="w0022" x="0" y="0" width="407" height="792" frameX="-2" frameY="-11" frameWidth="419" frameHeight="803"/>
+	<SubTexture name="w0023" x="0" y="0" width="407" height="792" frameX="-2" frameY="-11" frameWidth="419" frameHeight="803"/>
+	<SubTexture name="w0024" x="0" y="0" width="407" height="792" frameX="-2" frameY="-11" frameWidth="419" frameHeight="803"/>
+	<SubTexture name="w0025" x="0" y="0" width="407" height="792" frameX="-2" frameY="-11" frameWidth="419" frameHeight="803"/>
+</TextureAtlas>

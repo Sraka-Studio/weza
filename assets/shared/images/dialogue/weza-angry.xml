@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="weza-angry.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="weza-dialog0000" x="0" y="0" width="283" height="462"/>
+	<SubTexture name="weza-dialog0001" x="0" y="0" width="283" height="462"/>
+	<SubTexture name="weza-dialog0002" x="283" y="0" width="267" height="437" frameX="-16" frameY="-25" frameWidth="283" frameHeight="462"/>
+	<SubTexture name="weza-dialog0003" x="283" y="0" width="267" height="437" frameX="-16" frameY="-25" frameWidth="283" frameHeight="462"/>
+	<SubTexture name="weza-dialog0004" x="550" y="0" width="268" height="440" frameX="-15" frameY="-22" frameWidth="283" frameHeight="462"/>
+	<SubTexture name="weza-dialog0005" x="550" y="0" width="268" height="440" frameX="-15" frameY="-22" frameWidth="283" frameHeight="462"/>
+	<SubTexture name="weza-dialog0006" x="550" y="0" width="268" height="440" frameX="-15" frameY="-22" frameWidth="283" frameHeight="462"/>
+</TextureAtlas>

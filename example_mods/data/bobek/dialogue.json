@@ -1,0 +1,92 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "wezaa",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "KURWA MAC"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "bep?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "wezaa",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "PRZEGRALEM PIZDO"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "bep"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "wszystko ok masz wscieklizne?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "wezaa",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "NIE JEST OK CHYBA DLA CIEBIE"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "bep bap bop"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "wezaa",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "1 NA 1 DZIECIAKU"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "bep bop"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "wezaa",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "TYM RAZEM WYGRAM DZIECIAKU"
+		}
+	]
+}

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="siema.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="siema0000" x="0" y="0" width="1338" height="612" frameX="0" frameY="-27" frameWidth="1338" frameHeight="639"/>
+	<SubTexture name="siema0001" x="0" y="0" width="1338" height="612" frameX="0" frameY="-27" frameWidth="1338" frameHeight="639"/>
+	<SubTexture name="siema0002" x="1338" y="0" width="1338" height="599" frameX="0" frameY="-40" frameWidth="1338" frameHeight="639"/>
+	<SubTexture name="siema0003" x="1338" y="0" width="1338" height="599" frameX="0" frameY="-40" frameWidth="1338" frameHeight="639"/>
+	<SubTexture name="siema0004" x="2676" y="0" width="1338" height="639"/>
+	<SubTexture name="siema0005" x="2676" y="0" width="1338" height="639"/>
+	<SubTexture name="siema0006" x="0" y="639" width="1338" height="630" frameX="0" frameY="-9" frameWidth="1338" frameHeight="639"/>
+	<SubTexture name="siema0007" x="0" y="639" width="1338" height="630" frameX="0" frameY="-9" frameWidth="1338" frameHeight="639"/>
+	<SubTexture name="siema0008" x="1338" y="639" width="1338" height="626" frameX="0" frameY="-13" frameWidth="1338" frameHeight="639"/>
+	<SubTexture name="siema0009" x="1338" y="639" width="1338" height="626" frameX="0" frameY="-13" frameWidth="1338" frameHeight="639"/>
+	<SubTexture name="siema0010" x="2676" y="639" width="1338" height="624" frameX="0" frameY="-15" frameWidth="1338" frameHeight="639"/>
+	<SubTexture name="siema0011" x="2676" y="639" width="1338" height="624" frameX="0" frameY="-15" frameWidth="1338" frameHeight="639"/>
+</TextureAtlas>

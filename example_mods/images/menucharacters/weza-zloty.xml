@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="weza-zloty.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="i0000" x="0" y="0" width="345" height="711" frameX="-2" frameY="-26" frameWidth="347" frameHeight="737"/>
+	<SubTexture name="i0001" x="0" y="0" width="345" height="711" frameX="-2" frameY="-26" frameWidth="347" frameHeight="737"/>
+	<SubTexture name="i0002" x="345" y="0" width="346" height="737" frameX="0" frameY="0" frameWidth="347" frameHeight="737"/>
+	<SubTexture name="i0003" x="345" y="0" width="346" height="737" frameX="0" frameY="0" frameWidth="347" frameHeight="737"/>
+	<SubTexture name="i0004" x="691" y="0" width="344" height="732" frameX="-2" frameY="-5" frameWidth="347" frameHeight="737"/>
+	<SubTexture name="i0005" x="691" y="0" width="344" height="732" frameX="-2" frameY="-5" frameWidth="347" frameHeight="737"/>
+	<SubTexture name="i0006" x="1035" y="0" width="344" height="730" frameX="-2" frameY="-7" frameWidth="347" frameHeight="737"/>
+	<SubTexture name="i0007" x="1035" y="0" width="344" height="730" frameX="-2" frameY="-7" frameWidth="347" frameHeight="737"/>
+	<SubTexture name="i0008" x="1035" y="0" width="344" height="730" frameX="-2" frameY="-7" frameWidth="347" frameHeight="737"/>
+	<SubTexture name="i0009" x="1035" y="0" width="344" height="730" frameX="-2" frameY="-7" frameWidth="347" frameHeight="737"/>
+	<SubTexture name="i0010" x="1035" y="0" width="344" height="730" frameX="-2" frameY="-7" frameWidth="347" frameHeight="737"/>
+</TextureAtlas>

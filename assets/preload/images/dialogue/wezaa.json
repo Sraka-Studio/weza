@@ -1,0 +1,24 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		130,
+		20
+	],
+	"scale": 1.35,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				9
+			],
+			"idle_offsets": [
+				0,
+				9
+			],
+			"loop_name": "weza-dialog",
+			"idle_name": "weza-dialog0006"
+		}
+	],
+	"image": "weza-angry"
+}

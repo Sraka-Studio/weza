@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-2,
+				71
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "i"
+		},
+		{
+			"offsets": [
+				-72,
+				71
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "r"
+		},
+		{
+			"offsets": [
+				-3,
+				146
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "u"
+		},
+		{
+			"offsets": [
+				41,
+				72
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "l"
+		},
+		{
+			"offsets": [
+				-2,
+				3
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "d"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				231,
+				246
+			],
+			"anim": "super",
+			"fps": 24,
+			"name": "CO KURWA ZRESZ",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/elek",
+	"position": [
+		500,
+		350
+	],
+	"healthicon": "elekz",
+	"flip_x": false,
+	"healthbar_colors": [
+		102,
+		153,
+		255
+	],
+	"camera_position": [
+		-650,
+		-200
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

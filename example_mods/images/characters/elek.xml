@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="elek.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="CO KURWA ZRESZ0000" x="0" y="0" width="389" height="692" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0001" x="0" y="0" width="389" height="692" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0002" x="389" y="0" width="391" height="692" frameX="-237" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0003" x="389" y="0" width="391" height="692" frameX="-237" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0004" x="780" y="0" width="628" height="692" frameX="0" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0005" x="780" y="0" width="628" height="692" frameX="0" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0006" x="1408" y="0" width="570" height="692" frameX="-58" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0007" x="1978" y="0" width="570" height="692" frameX="-58" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0008" x="2548" y="0" width="389" height="736" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0009" x="2937" y="0" width="389" height="736" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0010" x="3326" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0011" x="3326" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0012" x="3715" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0013" x="4104" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0014" x="4104" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0015" x="4493" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0016" x="4882" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0017" x="4882" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0018" x="5271" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0019" x="5271" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0020" x="5660" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0021" x="6049" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0022" x="6049" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0023" x="6438" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0024" x="6438" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0025" x="6827" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0026" x="6827" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0027" x="6827" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0028" x="6827" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0029" x="6827" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0030" x="6827" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0031" x="6827" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0032" x="6827" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0033" x="6827" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0034" x="6827" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0035" x="6827" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0036" x="6827" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0037" x="6827" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0038" x="6827" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0039" x="6827" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0040" x="6827" y="0" width="389" height="740" frameX="-239" frameY="-174" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0041" x="7216" y="0" width="660" height="885" frameX="-61" frameY="0" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0042" x="0" y="885" width="660" height="885" frameX="-64" frameY="-3" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0043" x="660" y="885" width="660" height="886" frameX="-61" frameY="-6" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0044" x="1320" y="885" width="660" height="885" frameX="-61" frameY="-3" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0045" x="1980" y="885" width="660" height="886" frameX="-64" frameY="-6" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0046" x="1320" y="885" width="660" height="885" frameX="-61" frameY="-3" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0047" x="1320" y="885" width="660" height="885" frameX="-61" frameY="-3" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0048" x="7216" y="0" width="660" height="885" frameX="-61" frameY="0" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0049" x="0" y="885" width="660" height="885" frameX="-64" frameY="-3" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0050" x="660" y="885" width="660" height="886" frameX="-61" frameY="-6" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0051" x="1320" y="885" width="660" height="885" frameX="-61" frameY="-3" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0052" x="1980" y="885" width="660" height="886" frameX="-64" frameY="-6" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0053" x="1320" y="885" width="660" height="885" frameX="-61" frameY="-3" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0054" x="1320" y="885" width="660" height="885" frameX="-61" frameY="-3" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0055" x="7216" y="0" width="660" height="885" frameX="-61" frameY="0" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0056" x="0" y="885" width="660" height="885" frameX="-64" frameY="-3" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0057" x="660" y="885" width="660" height="886" frameX="-61" frameY="-6" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0058" x="1320" y="885" width="660" height="885" frameX="-61" frameY="-3" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0059" x="1980" y="885" width="660" height="886" frameX="-64" frameY="-6" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0060" x="1320" y="885" width="660" height="885" frameX="-61" frameY="-3" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0061" x="1320" y="885" width="660" height="885" frameX="-61" frameY="-3" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0062" x="7216" y="0" width="660" height="885" frameX="-61" frameY="0" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0063" x="0" y="885" width="660" height="885" frameX="-64" frameY="-3" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0064" x="660" y="885" width="660" height="886" frameX="-61" frameY="-6" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0065" x="1320" y="885" width="660" height="885" frameX="-61" frameY="-3" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0066" x="1980" y="885" width="660" height="886" frameX="-64" frameY="-6" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0067" x="1320" y="885" width="660" height="885" frameX="-61" frameY="-3" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0068" x="1320" y="885" width="660" height="885" frameX="-61" frameY="-3" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0069" x="7216" y="0" width="660" height="885" frameX="-61" frameY="0" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0070" x="0" y="885" width="660" height="885" frameX="-64" frameY="-3" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0071" x="660" y="885" width="660" height="886" frameX="-61" frameY="-6" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0072" x="1320" y="885" width="660" height="885" frameX="-61" frameY="-3" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0073" x="1980" y="885" width="660" height="886" frameX="-64" frameY="-6" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0074" x="1320" y="885" width="660" height="885" frameX="-61" frameY="-3" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0075" x="1320" y="885" width="660" height="885" frameX="-61" frameY="-3" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0076" x="7216" y="0" width="660" height="885" frameX="-61" frameY="0" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0077" x="0" y="885" width="660" height="885" frameX="-64" frameY="-3" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0078" x="660" y="885" width="660" height="886" frameX="-61" frameY="-6" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0079" x="1320" y="885" width="660" height="885" frameX="-61" frameY="-3" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0080" x="1980" y="885" width="660" height="886" frameX="-64" frameY="-6" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0081" x="1320" y="885" width="660" height="885" frameX="-61" frameY="-3" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0082" x="1320" y="885" width="660" height="885" frameX="-61" frameY="-3" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0083" x="7216" y="0" width="660" height="885" frameX="-61" frameY="0" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="CO KURWA ZRESZ0084" x="0" y="885" width="660" height="885" frameX="-64" frameY="-3" frameWidth="724" frameHeight="914"/>
+	<SubTexture name="O KURWA0000" x="2640" y="885" width="389" height="692" frameX="-21" frameY="0" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0001" x="2640" y="885" width="389" height="692" frameX="-21" frameY="0" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0002" x="2640" y="885" width="389" height="692" frameX="-21" frameY="0" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0003" x="3029" y="885" width="402" height="675" frameX="-8" frameY="-17" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0004" x="3029" y="885" width="402" height="675" frameX="-8" frameY="-17" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0005" x="3029" y="885" width="402" height="675" frameX="-8" frameY="-17" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0006" x="3431" y="885" width="409" height="669" frameX="-1" frameY="-23" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0007" x="3431" y="885" width="409" height="669" frameX="-1" frameY="-23" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0008" x="3840" y="885" width="410" height="668" frameX="0" frameY="-24" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0009" x="3840" y="885" width="410" height="668" frameX="0" frameY="-24" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0010" x="3840" y="885" width="410" height="668" frameX="0" frameY="-24" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0011" x="4250" y="885" width="402" height="675" frameX="-8" frameY="-17" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0012" x="4250" y="885" width="402" height="675" frameX="-8" frameY="-17" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0013" x="4652" y="885" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0014" x="4652" y="885" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0015" x="4652" y="885" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0016" x="4652" y="885" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0017" x="4652" y="885" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0018" x="4652" y="885" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0019" x="5052" y="885" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0020" x="5052" y="885" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0021" x="5452" y="885" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0022" x="5852" y="885" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0023" x="5852" y="885" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0024" x="6252" y="885" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0025" x="5052" y="885" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0026" x="5052" y="885" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0027" x="5452" y="885" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0028" x="6652" y="885" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0029" x="7052" y="885" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0030" x="7452" y="885" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0031" x="7452" y="885" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0032" x="0" y="1771" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0033" x="0" y="1771" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0034" x="0" y="1771" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0035" x="0" y="1771" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0036" x="0" y="1771" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0037" x="0" y="1771" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0038" x="0" y="1771" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0039" x="0" y="1771" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0040" x="0" y="1771" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0041" x="0" y="1771" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0042" x="0" y="1771" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0043" x="0" y="1771" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="O KURWA0044" x="0" y="1771" width="400" height="677" frameX="-10" frameY="-15" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="d0000" x="400" y="1771" width="440" height="596" frameX="0" frameY="-24" frameWidth="440" frameHeight="620"/>
+	<SubTexture name="d0001" x="400" y="1771" width="440" height="596" frameX="0" frameY="-24" frameWidth="440" frameHeight="620"/>
+	<SubTexture name="d0002" x="840" y="1771" width="407" height="619" frameX="-6" frameY="-1" frameWidth="440" frameHeight="620"/>
+	<SubTexture name="d0003" x="840" y="1771" width="407" height="619" frameX="-6" frameY="-1" frameWidth="440" frameHeight="620"/>
+	<SubTexture name="d0004" x="1247" y="1771" width="402" height="620" frameX="-6" frameY="0" frameWidth="440" frameHeight="620"/>
+	<SubTexture name="d0005" x="1247" y="1771" width="402" height="620" frameX="-6" frameY="0" frameWidth="440" frameHeight="620"/>
+	<SubTexture name="d0006" x="1247" y="1771" width="402" height="620" frameX="-6" frameY="0" frameWidth="440" frameHeight="620"/>
+	<SubTexture name="d0007" x="1247" y="1771" width="402" height="620" frameX="-6" frameY="0" frameWidth="440" frameHeight="620"/>
+	<SubTexture name="d0008" x="1247" y="1771" width="402" height="620" frameX="-6" frameY="0" frameWidth="440" frameHeight="620"/>
+	<SubTexture name="d0009" x="1247" y="1771" width="402" height="620" frameX="-6" frameY="0" frameWidth="440" frameHeight="620"/>
+	<SubTexture name="d0010" x="1247" y="1771" width="402" height="620" frameX="-6" frameY="0" frameWidth="440" frameHeight="620"/>
+	<SubTexture name="i0000" x="1649" y="1771" width="396" height="681" frameX="0" frameY="-11" frameWidth="396" frameHeight="692"/>
+	<SubTexture name="i0001" x="2045" y="1771" width="391" height="688" frameX="-5" frameY="-4" frameWidth="396" frameHeight="692"/>
+	<SubTexture name="i0002" x="2045" y="1771" width="391" height="688" frameX="-5" frameY="-4" frameWidth="396" frameHeight="692"/>
+	<SubTexture name="i0003" x="2045" y="1771" width="391" height="688" frameX="-5" frameY="-4" frameWidth="396" frameHeight="692"/>
+	<SubTexture name="i0004" x="2436" y="1771" width="390" height="691" frameX="-6" frameY="-1" frameWidth="396" frameHeight="692"/>
+	<SubTexture name="i0005" x="2436" y="1771" width="390" height="691" frameX="-6" frameY="-1" frameWidth="396" frameHeight="692"/>
+	<SubTexture name="i0006" x="2640" y="885" width="389" height="692" frameX="-6" frameY="0" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="i0007" x="2640" y="885" width="389" height="692" frameX="-6" frameY="0" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="i0008" x="2640" y="885" width="389" height="692" frameX="-6" frameY="0" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="i0009" x="2640" y="885" width="389" height="692" frameX="-6" frameY="0" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="i0010" x="2640" y="885" width="389" height="692" frameX="-6" frameY="0" frameWidth="410" frameHeight="692"/>
+	<SubTexture name="l0000" x="2826" y="1771" width="436" height="692" frameX="0" frameY="0" frameWidth="438" frameHeight="692"/>
+	<SubTexture name="l0001" x="2826" y="1771" width="436" height="692" frameX="0" frameY="0" frameWidth="438" frameHeight="692"/>
+	<SubTexture name="l0002" x="3262" y="1771" width="415" height="692" frameX="-23" frameY="0" frameWidth="438" frameHeight="692"/>
+	<SubTexture name="l0003" x="3262" y="1771" width="415" height="692" frameX="-23" frameY="0" frameWidth="438" frameHeight="692"/>
+	<SubTexture name="l0004" x="3677" y="1771" width="412" height="692" frameX="-26" frameY="0" frameWidth="438" frameHeight="692"/>
+	<SubTexture name="l0005" x="3677" y="1771" width="412" height="692" frameX="-26" frameY="0" frameWidth="438" frameHeight="692"/>
+	<SubTexture name="l0006" x="3677" y="1771" width="412" height="692" frameX="-26" frameY="0" frameWidth="438" frameHeight="692"/>
+	<SubTexture name="l0007" x="3677" y="1771" width="412" height="692" frameX="-26" frameY="0" frameWidth="438" frameHeight="692"/>
+	<SubTexture name="l0008" x="3677" y="1771" width="412" height="692" frameX="-26" frameY="0" frameWidth="438" frameHeight="692"/>
+	<SubTexture name="l0009" x="3677" y="1771" width="412" height="692" frameX="-26" frameY="0" frameWidth="438" frameHeight="692"/>
+	<SubTexture name="l0010" x="3677" y="1771" width="412" height="692" frameX="-26" frameY="0" frameWidth="438" frameHeight="692"/>
+	<SubTexture name="r0000" x="4089" y="1771" width="375" height="692" frameX="-2" frameY="0" frameWidth="377" frameHeight="692"/>
+	<SubTexture name="r0001" x="4089" y="1771" width="375" height="692" frameX="-2" frameY="0" frameWidth="377" frameHeight="692"/>
+	<SubTexture name="r0002" x="4464" y="1771" width="351" height="692" frameX="0" frameY="0" frameWidth="377" frameHeight="692"/>
+	<SubTexture name="r0003" x="4464" y="1771" width="351" height="692" frameX="0" frameY="0" frameWidth="377" frameHeight="692"/>
+	<SubTexture name="r0004" x="4815" y="1771" width="348" height="692" frameX="0" frameY="0" frameWidth="377" frameHeight="692"/>
+	<SubTexture name="r0005" x="4815" y="1771" width="348" height="692" frameX="0" frameY="0" frameWidth="377" frameHeight="692"/>
+	<SubTexture name="r0006" x="4815" y="1771" width="348" height="692" frameX="0" frameY="0" frameWidth="377" frameHeight="692"/>
+	<SubTexture name="r0007" x="4815" y="1771" width="348" height="692" frameX="0" frameY="0" frameWidth="377" frameHeight="692"/>
+	<SubTexture name="r0008" x="4815" y="1771" width="348" height="692" frameX="0" frameY="0" frameWidth="377" frameHeight="692"/>
+	<SubTexture name="r0009" x="4815" y="1771" width="348" height="692" frameX="0" frameY="0" frameWidth="377" frameHeight="692"/>
+	<SubTexture name="r0010" x="4815" y="1771" width="348" height="692" frameX="0" frameY="0" frameWidth="377" frameHeight="692"/>
+	<SubTexture name="u0000" x="5163" y="1771" width="419" height="769" frameX="-6" frameY="0" frameWidth="440" frameHeight="769"/>
+	<SubTexture name="u0001" x="5163" y="1771" width="419" height="769" frameX="-6" frameY="0" frameWidth="440" frameHeight="769"/>
+	<SubTexture name="u0002" x="5582" y="1771" width="433" height="739" frameX="-4" frameY="-30" frameWidth="440" frameHeight="769"/>
+	<SubTexture name="u0003" x="5582" y="1771" width="433" height="739" frameX="-4" frameY="-30" frameWidth="440" frameHeight="769"/>
+	<SubTexture name="u0004" x="6015" y="1771" width="440" height="737" frameX="0" frameY="-32" frameWidth="440" frameHeight="769"/>
+	<SubTexture name="u0005" x="6015" y="1771" width="440" height="737" frameX="0" frameY="-32" frameWidth="440" frameHeight="769"/>
+	<SubTexture name="u0006" x="6015" y="1771" width="440" height="737" frameX="0" frameY="-32" frameWidth="440" frameHeight="769"/>
+	<SubTexture name="u0007" x="6015" y="1771" width="440" height="737" frameX="0" frameY="-32" frameWidth="440" frameHeight="769"/>
+	<SubTexture name="u0008" x="6015" y="1771" width="440" height="737" frameX="0" frameY="-32" frameWidth="440" frameHeight="769"/>
+	<SubTexture name="u0009" x="6015" y="1771" width="440" height="737" frameX="0" frameY="-32" frameWidth="440" frameHeight="769"/>
+	<SubTexture name="u0010" x="6015" y="1771" width="440" height="737" frameX="0" frameY="-32" frameWidth="440" frameHeight="769"/>
+</TextureAtlas>

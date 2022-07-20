@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-2,
+				71
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "i",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-2,
+				62
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "r",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				133
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "u",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-2,
+				71
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "l",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				47
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "d",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/elekz",
+	"position": [
+		500,
+		350
+	],
+	"healthicon": "elekz",
+	"flip_x": false,
+	"healthbar_colors": [
+		102,
+		153,
+		255
+	],
+	"camera_position": [
+		-650,
+		-200
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
