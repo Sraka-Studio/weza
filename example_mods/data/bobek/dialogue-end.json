@@ -5,8 +5,8 @@
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
-			"expression": "excited",
-			"text": "bep bap"
+			"expression": "talk",
+			"text": "no dobra to jase pojde i poszukam adersu elevena"
 		},
 		{
 			"sound": "",
@@ -14,15 +14,31 @@
 			"portrait": "weza",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "przepraszam cie dzieciaku wkurzylem sie jak kid z fortnite"
+			"text": "dac ci jego adres"
 		},
 		{
 			"sound": "",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
-			"expression": "excited",
-			"text": "bep bap"
+			"expression": "talk",
+			"text": "ok"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "weza",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "no to dogadani"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "super"
 		},
 		{
 			"sound": "",
@@ -30,31 +46,15 @@
 			"portrait": "gf",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "my juz idziemy pa wezo chodz bf"
+			"text": "to ja w tym czasie pojde po hot-dogi z zabki bo tam mrkryha jest"
 		},
 		{
 			"sound": "",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
-			"expression": "excited",
-			"text": "bep bap"
-		},
-		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "weza",
-			"boxState": "normal",
-			"expression": "excited",
-			"text": "pa dzieciaki"
-		},
-		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
-			"expression": "excited",
-			"text": "bap"
+			"expression": "talk",
+			"text": "ok"
 		},
 		{
 			"sound": "",
@@ -62,15 +62,47 @@
 			"portrait": "weza",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "uwazajcie na siebie dzieciaki"
+			"text": "moge pojsc z wami?"
 		},
 		{
 			"sound": "",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
-			"expression": "excited",
-			"text": "bep bop"
+			"expression": "talk",
+			"text": "ok"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "weza",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "zajebiscie"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "no dobra to teraz hot-dogi czy eleven"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "weza",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "hot-dogi"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "ok"
 		}
 	]
 }

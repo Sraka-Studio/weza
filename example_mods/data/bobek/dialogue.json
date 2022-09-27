@@ -3,18 +3,26 @@
 		{
 			"sound": "",
 			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "zajebiscie"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
 			"portrait": "wezaa",
 			"boxState": "angry",
 			"expression": "talk",
-			"text": "KURWA MAC"
+			"text": "ok super spermo ludku z smieszna czapka"
 		},
 		{
 			"sound": "",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
-			"expression": "confused",
-			"text": "bep?"
+			"expression": "talk",
+			"text": "jeszcze do tego frytki"
 		},
 		{
 			"sound": "",
@@ -22,23 +30,15 @@
 			"portrait": "wezaa",
 			"boxState": "angry",
 			"expression": "talk",
-			"text": "PRZEGRALEM PIZDO"
+			"text": "nosz kurde zamknij sie niebiesko ludzie"
 		},
 		{
 			"sound": "",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
-			"expression": "confused",
-			"text": "bep"
-		},
-		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "gf",
-			"boxState": "normal",
-			"expression": "confused",
-			"text": "wszystko ok masz wscieklizne?"
+			"expression": "talk",
+			"text": "nie"
 		},
 		{
 			"sound": "",
@@ -46,23 +46,15 @@
 			"portrait": "wezaa",
 			"boxState": "angry",
 			"expression": "talk",
-			"text": "NIE JEST OK CHYBA DLA CIEBIE"
-		},
-		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "gf",
-			"boxState": "normal",
-			"expression": "confused",
-			"text": "..."
+			"text": "dobra spermo ludzie jesli wygrasz to wygrasz a jak ja wygram to ja wygram"
 		},
 		{
 			"sound": "",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
-			"expression": "confused",
-			"text": "bep bap bop"
+			"expression": "talk",
+			"text": "i jeszcze do tego frytki"
 		},
 		{
 			"sound": "",
@@ -70,15 +62,15 @@
 			"portrait": "wezaa",
 			"boxState": "angry",
 			"expression": "talk",
-			"text": "1 NA 1 DZIECIAKU"
+			"text": "ZAMKNIJ SIE"
 		},
 		{
 			"sound": "",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
-			"expression": "pissed",
-			"text": "bep bop"
+			"expression": "talk",
+			"text": "nie"
 		},
 		{
 			"sound": "",
@@ -86,7 +78,15 @@
 			"portrait": "wezaa",
 			"boxState": "angry",
 			"expression": "talk",
-			"text": "TYM RAZEM WYGRAM DZIECIAKU"
+			"text": "rapuj albo francja"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "ok"
 		}
 	]
 }

@@ -6,7 +6,39 @@
 			"portrait": "weza",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "O KURWA DZIECKO"
+			"text": "EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "bepo bepo pussy taj pussy clean pussy fresh nie umiem angielskiego XD"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "weza",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "ok ale dlaczego jestes niski"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "bo lubie rapowac"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "to jest tak zwany bobas 2023 nagrywa na yt i lubi rapowac z postaciami"
 		},
 		{
 			"sound": "",
@@ -14,15 +46,7 @@
 			"portrait": "bf",
 			"boxState": "normal",
 			"expression": "confused",
-			"text": "bep bop"
-		},
-		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "gf",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "on ma 19 lat ale on ma chorobe i dlatego jest taki niski"
+			"text": "nie jestem bobasem"
 		},
 		{
 			"sound": "",
@@ -30,31 +54,39 @@
 			"portrait": "weza",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "eeeeeeeeeeeeeeee"
-		},
-		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "gf",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "i ma dzwieki z gry"
+			"text": "ile ty masz lat?"
 		},
 		{
 			"sound": "",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
-			"expression": "excited",
-			"text": "yeah"
+			"expression": "talk",
+			"text": "17"
 		},
 		{
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "weza",
+			"portrait": "gf",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "jakos ci nie wieze"
+			"text": "bobas ma 19 lat i jest maly jak piesek UwU"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "nazywam sie chlopak a nie bobas"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "dobra bobasie UwU"
 		},
 		{
 			"sound": "",
@@ -62,7 +94,7 @@
 			"portrait": "bf",
 			"boxState": "normal",
 			"expression": "pissed",
-			"text": "bep bap"
+			"text": "ej weza"
 		},
 		{
 			"sound": "",
@@ -70,15 +102,15 @@
 			"portrait": "weza",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "rap bitwa? co to jakis zespul muzyczny"
+			"text": "co?"
 		},
 		{
 			"sound": "",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
-			"expression": "confused",
-			"text": "beh"
+			"expression": "talk",
+			"text": "jajco"
 		},
 		{
 			"sound": "",
@@ -86,7 +118,23 @@
 			"portrait": "weza",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "czyli mam spiewac hmmm no dobra dzieciaku pokanam cie zamknietymi oczami"
+			"text": "rozumiem ze chcesz ze mna rapowac"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "jeszcze jak"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "weza",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "no dobra"
 		},
 		{
 			"sound": "",
@@ -94,7 +142,7 @@
 			"portrait": "bf",
 			"boxState": "normal",
 			"expression": "excited",
-			"text": "yeah"
+			"text": "essa"
 		}
 	]
 }

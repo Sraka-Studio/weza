@@ -3,18 +3,10 @@
 		{
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "weza",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "pokonales mnie to fakt"
-		},
-		{
-			"sound": "",
-			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
 			"expression": "excited",
-			"text": "bep bop"
+			"text": "essa"
 		},
 		{
 			"sound": "",
@@ -22,7 +14,7 @@
 			"portrait": "weza",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "no bo nie mialem szans"
+			"text": "moze jeszcze do tego frytki?"
 		},
 		{
 			"sound": "",
@@ -30,7 +22,7 @@
 			"portrait": "bf",
 			"boxState": "normal",
 			"expression": "pissed",
-			"text": "bep bap"
+			"text": "ja chcialbym spermo"
 		},
 		{
 			"sound": "",
@@ -38,23 +30,15 @@
 			"portrait": "weza",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "rap bitwa znowu dlaczego?"
-		},
-		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "gf",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "ja tez nie wiem dlaczego on ciagle chce rap bitwy"
+			"text": "co ty kur..."
 		},
 		{
 			"sound": "",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
-			"expression": "confused",
-			"text": "bruhhhh"
+			"expression": "talk",
+			"text": "a nic jestem fanem dawidka czeszka"
 		},
 		{
 			"sound": "",
@@ -62,15 +46,15 @@
 			"portrait": "weza",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "no dobra dzieciaku"
+			"text": "XD a twoj idol to?"
 		},
 		{
 			"sound": "",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
-			"expression": "excited",
-			"text": "bep bap"
+			"expression": "talk",
+			"text": "STEGNA STEGNA STEGNA"
 		},
 		{
 			"sound": "",
@@ -78,15 +62,31 @@
 			"portrait": "weza",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "ale teraz ja cie pokonam"
+			"text": "ok fajnie"
 		},
 		{
 			"sound": "",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
-			"expression": "pissed",
-			"text": "bep bop"
+			"expression": "talk",
+			"text": "prawda jest taka ze sie nazywam pablo i lubie ciastka z musztarda UwU"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "weza",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "dobra spiewaj dalej deklu"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "ok"
 		}
 	]
 }
