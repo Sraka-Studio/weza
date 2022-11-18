@@ -1,3 +1,15 @@
+function onCreatePost()
+    triggerEvent('Opponent Notes Right Side', 'among us is', 'not funny')
+
+    setProperty('scoreTxt.visible', false)
+
+    setProperty('healthBar.visible', false)
+    setProperty('healthBarBG.visible', false)
+
+    setProperty('iconP1.visible', false)
+    setProperty('iconP2.visible', false)
+end
+
 function onCreate()
     setProperty('skipCountdown',true)
     makeLuaSprite('blackscreen', nil, -460, -260)
@@ -21,8 +33,8 @@ function onUpdate()
     end
 end
 
-function onCreatePost()
-    triggerEvent('Opponent Notes Right Side', 'among us is', 'not funny')
+function noteMiss(id, noteData, noteType, isSustainNote)
+	setProperty('health', 0);
 end
 
 function onEvent(name,a,b)
