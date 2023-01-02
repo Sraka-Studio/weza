@@ -82,7 +82,7 @@ class CreditsState extends MusicBeatState
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			['Vs Weza Team'],
-			['Wipek',				'wipek',			'artist and sprite maker',						'',			'9966CC'],
+			['Wipek',				'wipek',			'artist and sprite maker',						'',			'CC66CC'],
 			['Gidk',		'gidk',		'coder',								'',	'F8F8F8'],
 			['Bonky',			'bonky',			'music and chart',							'',		'FFD8B2'],
 			['Atesz',			'atesz',				'chromatic scale',								'',			'35B100'],
