@@ -1,7 +1,7 @@
 local allowCountdown = false;
 local playDialogue = false;
+
 function onStartCountdown()
-	-- Block the first countdown and start a timer of 0.8 seconds to play the dialogue
 	if not allowCountdown and isStoryMode and not seenCutscene then
 		startVideo('weza');
 		allowCountdown = true;
@@ -17,7 +17,7 @@ function onStartCountdown()
 end
 
 function onTimerCompleted(tag, loops, loopsLeft)
-	if tag == 'startDialogue' then -- Timer completed, play dialogue
+	if tag == 'startDialogue' then
 		startDialogue('dialogue', 'freakyMenu');
 	end
 end

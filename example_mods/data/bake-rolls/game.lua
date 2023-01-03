@@ -1,3 +1,8 @@
+function onCreate()
+    setProperty('skipCountdown', true)
+    setPropertyFromClass('flixel.FlxG', 'sound.music.volume', 0)
+end
+
 function onCreatePost()
     triggerEvent('Opponent Notes Right Side', 'among us is', 'not funny')
 
@@ -10,27 +15,16 @@ function onCreatePost()
     setProperty('iconP2.visible', false)
 end
 
-function onCreate()
-    setProperty('skipCountdown',true)
-    makeLuaSprite('blackscreen', nil, -460, -260)
-    makeGraphic('blackscreen', 4000, 3000, '000000')
-    setLuaSpriteScrollFactor('blackscreen', 0, 0);
-    scaleObject('blackscreen', 1.7, 1.7);
-    setObjectCamera('blackscreen', 'hud')
-    addLuaSprite('blackscreen', true)
-end
-
 function onUpdate()
-    if curStep == 1 then
-        doTweenAlpha('blackscreen', 'blackscreen', 0, 5)
-    end
     if curStep == 478 then
         triggerEvent('Play Animation', 'super', 'Dad')
         triggerEvent('Play Animation', 'wut', 'BF')
-    end
-    if curStep == 478 then
         triggerEvent('Change Character', 'BF', 'wezass')
     end
+end
+
+function onSongStart()
+    setPropertyFromClass('flixel.FlxG', 'sound.music.volume', 1)
 end
 
 function noteMiss(id, noteData, noteType, isSustainNote)
