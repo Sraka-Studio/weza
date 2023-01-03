@@ -16,7 +16,7 @@ function onCreate()
     makeGraphic('blackscreen', 4000, 3000, '000000')
     setLuaSpriteScrollFactor('blackscreen', 0, 0);
     scaleObject('blackscreen', 1.7, 1.7);
-    setObjectCamera('blackscreen', 'camOther')
+    setObjectCamera('blackscreen', 'hud')
     addLuaSprite('blackscreen', true)
 end
 
