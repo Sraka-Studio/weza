@@ -53,7 +53,7 @@ class FlashingState extends MusicBeatState
 				FlxTransitionableState.skipNextTransIn = true;
 				FlxTransitionableState.skipNextTransOut = true;
 			
-				FlxG.camera.flash(FlxColor.WHITE, 2);
+				FlxG.sound.music.fadeIn(4, 0, 0.7);
 
 		        var bg:FlxSprite = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
 		        add(bg);
