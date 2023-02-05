@@ -6,7 +6,7 @@
 			"portrait": "bf",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "no dobra to jase pojde i poszukam adersu elevena"
+			"text": "No dobra, to ja se pojde i poszukam adresu Elevena"
 		},
 		{
 			"sound": "",
@@ -14,7 +14,7 @@
 			"portrait": "weza",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "dac ci jego adres"
+			"text": "Dac ci jego adres?"
 		},
 		{
 			"sound": "",
@@ -22,7 +22,7 @@
 			"portrait": "bf",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "ok"
+			"text": "k"
 		},
 		{
 			"sound": "",
@@ -30,7 +30,7 @@
 			"portrait": "weza",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "no to dogadani"
+			"text": "No to dogadani"
 		},
 		{
 			"sound": "",
@@ -38,7 +38,7 @@
 			"portrait": "bf",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "super"
+			"text": "Super"
 		},
 		{
 			"sound": "",
@@ -46,7 +46,7 @@
 			"portrait": "gf",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "to ja w tym czasie pojde po hot-dogi z zabki bo tam jest mrkryha"
+			"text": "To ja ten, pojde po hot-dogi z zabki... bo podobno jest tam mrkryha"
 		},
 		{
 			"sound": "",
@@ -54,7 +54,7 @@
 			"portrait": "bf",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "ok"
+			"text": "k"
 		},
 		{
 			"sound": "",
@@ -62,7 +62,7 @@
 			"portrait": "weza",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "moge pojsc z wami?"
+			"text": "Moge pojsc razem z wami?"
 		},
 		{
 			"sound": "",
@@ -70,7 +70,7 @@
 			"portrait": "bf",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "ok"
+			"text": "k"
 		},
 		{
 			"sound": "",
@@ -78,7 +78,7 @@
 			"portrait": "weza",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "zajebiscie"
+			"text": "Zajebiscie"
 		},
 		{
 			"sound": "",
@@ -86,7 +86,7 @@
 			"portrait": "bf",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "no dobra to teraz hot-dogi czy eleven"
+			"text": "Czekaj, czekaj... to teraz hot-dogi czy Eleven?"
 		},
 		{
 			"sound": "",
@@ -102,7 +102,7 @@
 			"portrait": "bf",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "ok"
+			"text": "k"
 		}
 	]
 }

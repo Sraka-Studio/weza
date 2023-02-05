@@ -6,15 +6,31 @@
 			"portrait": "bf",
 			"boxState": "normal",
 			"expression": "excited",
-			"text": "zajebiscie"
+			"text": "EZ win"
 		},
 		{
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "wezaa",
-			"boxState": "angry",
+			"portrait": "weza",
+			"boxState": "normal",
 			"expression": "talk",
-			"text": "ok zamknij sie jestes jakis goofy ahhh"
+			"text": "Would you like fries with it?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "nah i would like some sperm"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "weza",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "What the fu..."
 		},
 		{
 			"sound": "",
@@ -22,15 +38,15 @@
 			"portrait": "bf",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "jeszcze do tego frytki"
+			"text": "It's nothing, i'm just a fan of Dawid Czech"
 		},
 		{
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "wezaa",
-			"boxState": "angry",
+			"portrait": "weza",
+			"boxState": "normal",
 			"expression": "talk",
-			"text": "nosz kurde zamknij sie niebiesko ludku"
+			"text": "Lmao... Who's your idol?"
 		},
 		{
 			"sound": "",
@@ -38,15 +54,15 @@
 			"portrait": "bf",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "nie"
+			"text": "STEGNA STEGNA STEGNA"
 		},
 		{
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "wezaa",
-			"boxState": "angry",
+			"portrait": "weza",
+			"boxState": "normal",
 			"expression": "talk",
-			"text": "dobra spermo ludku jesli wygrasz to wygrasz a jak ja wygram to ja wygram"
+			"text": "Ok cool"
 		},
 		{
 			"sound": "",
@@ -54,15 +70,15 @@
 			"portrait": "bf",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "i jeszcze do tego frytki"
+			"text": "The truth is that my name is actually Pablo and i love cookies with mustard UwU"
 		},
 		{
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "wezaa",
-			"boxState": "angry",
+			"portrait": "weza",
+			"boxState": "normal",
 			"expression": "talk",
-			"text": "ZAMKNIJ SIE"
+			"text": "Ok can we sing now"
 		},
 		{
 			"sound": "",
@@ -70,23 +86,7 @@
 			"portrait": "bf",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "nie"
-		},
-		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "wezaa",
-			"boxState": "angry",
-			"expression": "talk",
-			"text": "rapuj albo francja"
-		},
-		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "ok"
+			"text": "k"
 		}
 	]
 }

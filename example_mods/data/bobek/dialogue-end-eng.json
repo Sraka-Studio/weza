@@ -1,0 +1,108 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Well alright, so i am just gonna go and try to find Eleven's home adress" 
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "weza",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Want me to give you his adress?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "k"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "weza",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Okay so it's settled then"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Cool"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "So uh, i'm just gonna go get some hot-dogs from zabka... i heard mrkryha is still in there"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "k"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "weza",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Can i go with you guys?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "k"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "weza",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Awesome"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Wait hold on... do we go get the hot-dogs first, or go to Eleven's house instead- ?" 
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "weza",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "hot-dogs"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "k"
+		}
+	]
+}

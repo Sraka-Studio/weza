@@ -31,54 +31,54 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 {
 	public function new()
 	{
-		title = 'Gameplay Settings';
+		title = LanguageData.gameplay[ClientPrefs.langNo];
 		rpcTitle = 'Gameplay Settings Menu'; //for Discord Rich Presence
 
-		var option:Option = new Option('Controller Mode',
-			'Check this if you want to play with\na controller instead of using your Keyboard.',
+		var option:Option = new Option(LanguageData.controllerMode[ClientPrefs.langNo],
+			LanguageData.controllerModeDesc[ClientPrefs.langNo],
 			'controllerMode',
 			'bool',
 			false);
 		addOption(option);
 
 		//I'd suggest using "Downscroll" as an example for making your own option since it is the simplest here
-		var option:Option = new Option('Downscroll', //Name
-			'If checked, notes go Down instead of Up, simple enough.', //Description
+		var option:Option = new Option(LanguageData.downScroll[ClientPrefs.langNo], //Name
+			LanguageData.downScrollDesc[ClientPrefs.langNo], //Description
 			'downScroll', //Save data variable name
 			'bool', //Variable type
 			false); //Default value
 		addOption(option);
 
-		var option:Option = new Option('Middlescroll',
-			'If checked, your notes get centered.',
+		var option:Option = new Option(LanguageData.middleScroll[ClientPrefs.langNo],
+			LanguageData.middleScrollDesc[ClientPrefs.langNo],
 			'middleScroll',
 			'bool',
 			false);
 		addOption(option);
 
-		var option:Option = new Option('Opponent Notes',
-			'If unchecked, opponent notes get hidden.',
+		var option:Option = new Option(LanguageData.opponentStrums[ClientPrefs.langNo],
+			LanguageData.opponentStrumsDesc[ClientPrefs.langNo],
 			'opponentStrums',
 			'bool',
 			true);
 		addOption(option);
 
-		var option:Option = new Option('Ghost Tapping',
-			"If checked, you won't get misses from pressing keys\nwhile there are no notes able to be hit.",
+		var option:Option = new Option(LanguageData.ghostTapping[ClientPrefs.langNo],
+			LanguageData.ghostTappingDesc[ClientPrefs.langNo],
 			'ghostTapping',
 			'bool',
 			true);
 		addOption(option);
 
-		var option:Option = new Option('Disable Reset Button',
-			"If checked, pressing Reset won't do anything.",
+		var option:Option = new Option(LanguageData.noReset[ClientPrefs.langNo],
+			LanguageData.noResetDesc[ClientPrefs.langNo],
 			'noReset',
 			'bool',
 			false);
 		addOption(option);
 
-		var option:Option = new Option('Hitsound Volume',
-			'Funny notes does \"Tick!\" when you hit them."',
+		var option:Option = new Option(LanguageData.hitsoundVolume[ClientPrefs.langNo],
+			LanguageData.hitsoundVolumeDesc[ClientPrefs.langNo],
 			'hitsoundVolume',
 			'percent',
 			0);
@@ -90,8 +90,8 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 		option.decimals = 1;
 		option.onChange = onChangeHitsoundVolume;
 
-		var option:Option = new Option('Rating Offset',
-			'Changes how late/early you have to hit for a "Sick!"\nHigher values mean you have to hit later.',
+		var option:Option = new Option(LanguageData.ratingOffset[ClientPrefs.langNo],
+			LanguageData.ratingOffsetDesc[ClientPrefs.langNo],
 			'ratingOffset',
 			'int',
 			0);
@@ -101,8 +101,8 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 		option.maxValue = 30;
 		addOption(option);
 
-		var option:Option = new Option('Sick! Hit Window',
-			'Changes the amount of time you have\nfor hitting a "Sick!" in milliseconds.',
+		var option:Option = new Option(LanguageData.sickWindow[ClientPrefs.langNo],
+			LanguageData.sickWindowDesc[ClientPrefs.langNo],
 			'sickWindow',
 			'int',
 			45);
@@ -112,8 +112,8 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 		option.maxValue = 45;
 		addOption(option);
 
-		var option:Option = new Option('Good Hit Window',
-			'Changes the amount of time you have\nfor hitting a "Good" in milliseconds.',
+		var option:Option = new Option(LanguageData.goodWindow[ClientPrefs.langNo],
+			LanguageData.goodWindowDesc[ClientPrefs.langNo],
 			'goodWindow',
 			'int',
 			90);
@@ -123,8 +123,8 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 		option.maxValue = 90;
 		addOption(option);
 
-		var option:Option = new Option('Bad Hit Window',
-			'Changes the amount of time you have\nfor hitting a "Bad" in milliseconds.',
+		var option:Option = new Option(LanguageData.badWindow[ClientPrefs.langNo],
+			LanguageData.badWindowDesc[ClientPrefs.langNo],
 			'badWindow',
 			'int',
 			135);
@@ -134,8 +134,8 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 		option.maxValue = 135;
 		addOption(option);
 
-		var option:Option = new Option('Safe Frames',
-			'Changes how many frames you have for\nhitting a note earlier or late.',
+		var option:Option = new Option(LanguageData.safeFrames[ClientPrefs.langNo],
+			LanguageData.safeFramesDesc[ClientPrefs.langNo],
 			'safeFrames',
 			'float',
 			10);
@@ -145,11 +145,46 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 		option.changeValue = 0.1;
 		addOption(option);
 
+		var option:Option = new Option(LanguageData.language[ClientPrefs.langNo],
+			LanguageData.languageDesc[ClientPrefs.langNo],
+			'language',
+			'string',
+			LanguageData.languageList[ClientPrefs.langNo][ClientPrefs.langCurSelected],
+			LanguageData.languageList[ClientPrefs.langNo]);
+		addOption(option);
+		option.onChange = changeLangNoInt;
+		
 		super();
 	}
 
 	function onChangeHitsoundVolume()
 	{
 		FlxG.sound.play(Paths.sound('hitsound'), ClientPrefs.hitsoundVolume);
+	}
+
+	// WORK IN PROGRESS
+	function changeLangNoInt()
+	{
+		var lol:Int = 0;
+		if(controls.UI_LEFT_P) {
+			lol = -1;
+		}
+		if (controls.UI_RIGHT_P) {
+			lol = 1;
+		}
+		ClientPrefs.langCurSelected += lol;
+		if (ClientPrefs.langCurSelected >= LanguageData.languageList[ClientPrefs.langNo].length) 
+		{
+			ClientPrefs.langCurSelected = 0;
+		}
+		if (ClientPrefs.langCurSelected < 0)
+		{
+			ClientPrefs.langCurSelected = LanguageData.languageList[ClientPrefs.langNo].length - 1;
+		}
+
+		ClientPrefs.langNo = ClientPrefs.langCurSelected;
+		// Put all String ClientPrefs variables here.
+		ClientPrefs.language = LanguageData.languageList[ClientPrefs.langNo][ClientPrefs.langCurSelected];
+		ClientPrefs.timeBarType = LanguageData.timeBarTypeList[ClientPrefs.langNo][ClientPrefs.timeBarTypeCurSelected];
 	}
 }

@@ -31,35 +31,35 @@ class ControlsSubState extends MusicBeatSubstate {
 	private static var curSelected:Int = -1;
 	private static var curAlt:Bool = false;
 
-	private static var defaultKey:String = 'Reset to Default Keys';
+	private static var defaultKey:String = LanguageData.defaultKey[ClientPrefs.langNo];
 	private var bindLength:Int = 0;
 
 	var optionShit:Array<Dynamic> = [
-		['NOTES'],
-		['Left', 'note_left'],
-		['Down', 'note_down'],
-		['Up', 'note_up'],
-		['Right', 'note_right'],
+		[LanguageData.notes[ClientPrefs.langNo]],
+		[LanguageData.left[ClientPrefs.langNo], 'note_left'],
+		[LanguageData.down[ClientPrefs.langNo], 'note_down'],
+		[LanguageData.up[ClientPrefs.langNo], 'note_up'],
+		[LanguageData.right[ClientPrefs.langNo], 'note_right'],
 		[''],
 		['UI'],
-		['Left', 'ui_left'],
-		['Down', 'ui_down'],
-		['Up', 'ui_up'],
-		['Right', 'ui_right'],
+		[LanguageData.left[ClientPrefs.langNo], 'ui_left'],
+		[LanguageData.down[ClientPrefs.langNo], 'ui_down'],
+		[LanguageData.up[ClientPrefs.langNo], 'ui_up'],
+		[LanguageData.right[ClientPrefs.langNo], 'ui_right'],
 		[''],
 		['Reset', 'reset'],
-		['Accept', 'accept'],
-		['Back', 'back'],
-		['Pause', 'pause'],
+		[LanguageData.accept[ClientPrefs.langNo], 'accept'],
+		[LanguageData.backC[ClientPrefs.langNo], 'back'],
+		[LanguageData.pause[ClientPrefs.langNo], 'pause'],
 		[''],
-		['VOLUME'],
-		['Mute', 'volume_mute'],
-		['Up', 'volume_up'],
-		['Down', 'volume_down'],
+		[LanguageData.volume[ClientPrefs.langNo]],
+		[LanguageData.mute[ClientPrefs.langNo], 'volume_mute'],
+		[LanguageData.up[ClientPrefs.langNo], 'volume_up'],
+		[LanguageData.down[ClientPrefs.langNo], 'volume_down'],
 		[''],
 		['DEBUG'],
-		['Key 1', 'debug_1'],
-		['Key 2', 'debug_2']
+		[LanguageData.key1[ClientPrefs.langNo], 'debug_1'],
+		[LanguageData.key2[ClientPrefs.langNo], 'debug_2']
 	];
 
 	private var grpOptions:FlxTypedGroup<Alphabet>;
@@ -308,7 +308,6 @@ class ControlsSubState extends MusicBeatSubstate {
 				addBindTexts(grpOptions.members[i], i);
 			}
 		}
-
 
 		var bullShit:Int = 0;
 		for (i in 0...grpInputs.length) {

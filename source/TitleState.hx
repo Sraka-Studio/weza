@@ -176,22 +176,16 @@ class TitleState extends MusicBeatState
 		#elseif CHARTING
 		MusicBeatState.switchState(new ChartingState());
 		#else
-		if(!FlashingState.leftState) {
+		if (FlxG.save.data.langCurSelected == null && !LanguageSelect.leftState) {
+			FlxTransitionableState.skipNextTransIn = true;
+			FlxTransitionableState.skipNextTransOut = true;
+			MusicBeatState.switchState(new LanguageSelect());
+		}
+		else if(FlxG.save.data.flashing == null && !FlashingState.leftState) {
 			FlxTransitionableState.skipNextTransIn = true;
 			FlxTransitionableState.skipNextTransOut = true;
 			MusicBeatState.switchState(new FlashingState());
-		}
-
-			#if desktop
-			if (!DiscordClient.isInitialized)
-			{
-				DiscordClient.initialize();
-				Application.current.onExit.add (function (exitCode) {
-					DiscordClient.shutdown();
-				});
-			}
-			#end
-
+		} else {
 			if (initialized)
 				startIntro();
 			else
@@ -201,6 +195,7 @@ class TitleState extends MusicBeatState
 					startIntro();
 				});
 			}
+		}
 		#end
 	}
 

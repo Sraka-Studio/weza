@@ -1,0 +1,148 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "weza",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Beep Bep Skep Bap"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "weza",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Uh okej, ale dlaczego jestes taki niski?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Bo lubie rapowac bep bap"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "To tak zwany bobas 2023, lubi rapowac z postaciami i posiada ponad 4 suby" 
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Nie jestem bobasem >:("
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "weza",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "To ile ty masz lat?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "17"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Bobas ma 19 lat i jest maly jak piesek UwU OwO"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Nazywam sie Boyfriend, nie bobas glupia cipo"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "dobra bobasie UwU"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "Te, Weza"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "weza",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "co"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "jajco"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "weza",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Rozumiem zeee... chcesz ze mna rapowac?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "Jeszcze jak"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "weza",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "No dobra"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Essa"
+		}
+	]
+}

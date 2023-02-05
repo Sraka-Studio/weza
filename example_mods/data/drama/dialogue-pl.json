@@ -1,0 +1,92 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Essa z toba"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "weza",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Moze jeszcze do tego frytki co?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "Ja chcialbym spermo"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "weza",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Co ty kur..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "A nic jestem fanem Dawida Czecha"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "weza",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "XD... A twoj idol to?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "STEGNA STEGNA STEGNA"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "weza",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Ok fajnie"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Prawda jest taka, ze nazywam sie pablo i lubie ciastka z musztarda UwU"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "weza",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Dobra spiewamy dalej uposiu"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "k"
+		}
+	]
+}

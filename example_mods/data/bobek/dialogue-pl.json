@@ -6,31 +6,15 @@
 			"portrait": "bf",
 			"boxState": "normal",
 			"expression": "excited",
-			"text": "essa"
+			"text": "Zajebiscie"
 		},
 		{
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "weza",
-			"boxState": "normal",
+			"portrait": "wezaa",
+			"boxState": "angry",
 			"expression": "talk",
-			"text": "moze jeszcze do tego frytki?"
-		},
-		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
-			"expression": "pissed",
-			"text": "ja chcialbym spermo"
-		},
-		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "weza",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "co ty kur..."
+			"text": "Stul morde, jestes goofy w chuj"
 		},
 		{
 			"sound": "",
@@ -38,31 +22,15 @@
 			"portrait": "bf",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "a nic jestem fanem dawidka czeszka"
+			"text": "I jeszcze do tego frytki"
 		},
 		{
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "weza",
-			"boxState": "normal",
+			"portrait": "wezaa",
+			"boxState": "angry",
 			"expression": "talk",
-			"text": "XD a twoj idol to?"
-		},
-		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "STEGNA STEGNA STEGNA"
-		},
-		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "weza",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "ok fajnie"
+			"text": "Nosz kurwa zamknij sie smerfie"
 		},
 		{
 			"sound": "",
@@ -70,15 +38,15 @@
 			"portrait": "bf",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "prawda jest taka ze sie nazywam pablo i lubie ciastka z musztarda UwU"
+			"text": "Nie"
 		},
 		{
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "weza",
-			"boxState": "normal",
+			"portrait": "wezaa",
+			"boxState": "angry",
 			"expression": "talk",
-			"text": "dobra spiewaj dalej deklu"
+			"text": "Dobra smieciu, jesli wygrasz, to wygrasz a jak ja wygram to ja wygram..."
 		},
 		{
 			"sound": "",
@@ -86,7 +54,39 @@
 			"portrait": "bf",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "ok"
+			"text": "I jeszcze do tego frytki"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "wezaa",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "MORDA"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Nie"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "wezaa",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "Rapuj albo Francja"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "k"
 		}
 	]
 }

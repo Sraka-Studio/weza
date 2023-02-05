@@ -31,54 +31,55 @@ class VisualsUISubState extends BaseOptionsMenu
 {
 	public function new()
 	{
-		title = 'Visuals and UI';
+		title = LanguageData.visualsUi[ClientPrefs.langNo];
 		rpcTitle = 'Visuals & UI Settings Menu'; //for Discord Rich Presence
 
-		var option:Option = new Option('Note Splashes',
-			"If unchecked, hitting \"Sick!\" notes won't show particles.",
+		var option:Option = new Option(LanguageData.noteSplashes[ClientPrefs.langNo],
+			LanguageData.noteSplashesDesc[ClientPrefs.langNo],
 			'noteSplashes',
 			'bool',
 			true);
 		addOption(option);
 
-		var option:Option = new Option('Hide HUD',
-			'If checked, hides most HUD elements.',
+		var option:Option = new Option(LanguageData.hideHud[ClientPrefs.langNo],
+			LanguageData.hideHudDesc[ClientPrefs.langNo],
 			'hideHud',
 			'bool',
 			false);
 		addOption(option);
 		
-		var option:Option = new Option('Time Bar:',
-			"What should the Time Bar display?",
+		var option:Option = new Option(LanguageData.timeBarType[ClientPrefs.langNo],
+			LanguageData.timeBarTypeDesc[ClientPrefs.langNo],
 			'timeBarType',
 			'string',
-			'Time Left',
-			['Time Left', 'Time Elapsed', 'Song Name', 'Disabled']);
+			LanguageData.timeBarTypeList[ClientPrefs.langNo][ClientPrefs.timeBarTypeCurSelected],
+			LanguageData.timeBarTypeList[ClientPrefs.langNo]);
 		addOption(option);
+		option.onChange = changeTimeBarType;
 
-		var option:Option = new Option('Flashing Lights',
-			"Uncheck this if you're sensitive to flashing lights!",
+		var option:Option = new Option(LanguageData.flashing[ClientPrefs.langNo],
+			LanguageData.flashingDesc[ClientPrefs.langNo],
 			'flashing',
 			'bool',
 			true);
 		addOption(option);
 
-		var option:Option = new Option('Camera Zooms',
-			"If unchecked, the camera won't zoom in on a beat hit.",
+		var option:Option = new Option(LanguageData.camZooms[ClientPrefs.langNo],
+			LanguageData.camZoomsDesc[ClientPrefs.langNo],
 			'camZooms',
 			'bool',
 			true);
 		addOption(option);
 
-		var option:Option = new Option('Score Text Zoom on Hit',
-			"If unchecked, disables the Score text zooming\neverytime you hit a note.",
+		var option:Option = new Option(LanguageData.scoreZoom[ClientPrefs.langNo],
+			LanguageData.scoreZoomDesc[ClientPrefs.langNo],
 			'scoreZoom',
 			'bool',
 			true);
 		addOption(option);
 
-		var option:Option = new Option('Health Bar Transparency',
-			'How much transparent should the health bar and icons be.',
+		var option:Option = new Option(LanguageData.healthBarAlpha[ClientPrefs.langNo],
+			LanguageData.healthBarAlphaDesc[ClientPrefs.langNo],
 			'healthBarAlpha',
 			'percent',
 			1);
@@ -88,19 +89,19 @@ class VisualsUISubState extends BaseOptionsMenu
 		option.changeValue = 0.1;
 		option.decimals = 1;
 		addOption(option);
-		
+
 		#if !mobile
-		var option:Option = new Option('FPS Counter',
-			'If unchecked, hides FPS Counter.',
+		var option:Option = new Option(LanguageData.showFPS[ClientPrefs.langNo],
+			LanguageData.showFPSDesc[ClientPrefs.langNo],
 			'showFPS',
 			'bool',
 			true);
 		addOption(option);
 		option.onChange = onChangeFPSCounter;
 		#end
-		
-		var option:Option = new Option('Pause Screen Song:',
-			"What song do you prefer for the Pause Screen?",
+
+		var option:Option = new Option(LanguageData.pauseSong[ClientPrefs.langNo],
+			LanguageData.pauseSongDesc[ClientPrefs.langNo],
 			'pauseMusic',
 			'string',
 			'Tea Time',
@@ -109,8 +110,8 @@ class VisualsUISubState extends BaseOptionsMenu
 		option.onChange = onChangePauseMusic;
 		
 		#if CHECK_FOR_UPDATES
-		var option:Option = new Option('Check for Updates',
-			'On Release builds, turn this on to check for updates when you start the game.',
+		var option:Option = new Option(LanguageData.checkForUpdates[ClientPrefs.langNo],
+			LanguageData.checkForUpdatesDesc[ClientPrefs.langNo],
 			'checkForUpdates',
 			'bool',
 			true);
@@ -118,6 +119,28 @@ class VisualsUISubState extends BaseOptionsMenu
 		#end
 
 		super();
+	}
+
+	function changeTimeBarType()
+	{
+		var lol:Int = 0;
+		if(controls.UI_LEFT_P) {
+			lol = -1;
+		}
+		if (controls.UI_RIGHT_P) {
+			lol = 1;
+		}
+		ClientPrefs.timeBarTypeCurSelected += lol;
+		if (ClientPrefs.timeBarTypeCurSelected >= LanguageData.timeBarTypeList[ClientPrefs.langNo].length) 
+		{
+			ClientPrefs.timeBarTypeCurSelected = 0;
+		}
+		if (ClientPrefs.timeBarTypeCurSelected < 0)
+		{
+			ClientPrefs.timeBarTypeCurSelected = LanguageData.timeBarTypeList[ClientPrefs.langNo].length - 1;
+		}
+
+		ClientPrefs.timeBarType = LanguageData.timeBarTypeList[ClientPrefs.langNo][ClientPrefs.timeBarTypeCurSelected];
 	}
 
 	var changedMusic:Bool = false;

@@ -24,7 +24,8 @@ class ClientPrefs {
 	public static var arrowHSV:Array<Array<Int>> = [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]];
 	public static var imagesPersist:Bool = false;
 	public static var ghostTapping:Bool = true;
-	public static var timeBarType:String = 'Time Left';
+	public static var timeBarType:String = LanguageData.timeBarTypeList[ClientPrefs.langNo][ClientPrefs.timeBarTypeCurSelected];
+	public static var timeBarTypeCurSelected:Int = 0;
 	public static var scoreZoom:Bool = true;
 	public static var noReset:Bool = false;
 	public static var healthBarAlpha:Float = 1;
@@ -34,7 +35,7 @@ class ClientPrefs {
 	public static var checkForUpdates:Bool = true;
 	public static var gameplaySettings:Map<String, Dynamic> = [
 		'scrollspeed' => 1.0,
-		'scrolltype' => 'multiplicative', 
+		'scrolltype' => LanguageData.multiplicative[langNo], 
 		// anyone reading this, amod is multiplicative speed mod, cmod is constant speed mod, and xmod is bpm based speed mod.
 		// an amod example would be chartSpeed * multiplier
 		// cmod would just be constantSpeed = chartSpeed
@@ -86,6 +87,9 @@ class ClientPrefs {
 		'debug_2'		=> [EIGHT, NONE]
 	];
 	public static var defaultKeys:Map<String, Array<FlxKey>> = null;
+	public static var language:String = LanguageData.languageList[ClientPrefs.langNo][0];
+	public static var langNo:Int = 0;
+	public static var langCurSelected:Int = 0; // wouldn't have made this var but i dunno how would i make lang update then
 
 	public static function loadDefaultKeys() {
 		defaultKeys = keyBinds.copy();
@@ -111,6 +115,7 @@ class ClientPrefs {
 		FlxG.save.data.imagesPersist = imagesPersist;
 		FlxG.save.data.ghostTapping = ghostTapping;
 		FlxG.save.data.timeBarType = timeBarType;
+		FlxG.save.data.timeBarTypeCurSelected = timeBarTypeCurSelected;
 		FlxG.save.data.scoreZoom = scoreZoom;
 		FlxG.save.data.noReset = noReset;
 		FlxG.save.data.healthBarAlpha = healthBarAlpha;
@@ -126,6 +131,10 @@ class ClientPrefs {
 		FlxG.save.data.hitsoundVolume = hitsoundVolume;
 		FlxG.save.data.pauseMusic = pauseMusic;
 		FlxG.save.data.checkForUpdates = checkForUpdates;
+
+		FlxG.save.data.language = language;
+		FlxG.save.data.langNo = langNo;
+		FlxG.save.data.langCurSelected = langCurSelected;
 	
 		FlxG.save.flush();
 
@@ -198,6 +207,9 @@ class ClientPrefs {
 		if(FlxG.save.data.timeBarType != null) {
 			timeBarType = FlxG.save.data.timeBarType;
 		}
+		if(FlxG.save.data.timeBarTypeCurSelected != null) {
+			timeBarTypeCurSelected = FlxG.save.data.timeBarTypeCurSelected;
+		}
 		if(FlxG.save.data.scoreZoom != null) {
 			scoreZoom = FlxG.save.data.scoreZoom;
 		}
@@ -256,6 +268,19 @@ class ClientPrefs {
 		if (FlxG.save.data.checkForUpdates != null)
 		{
 			checkForUpdates = FlxG.save.data.checkForUpdates;
+		}
+
+		if (FlxG.save.data.language != null)
+		{
+			language = FlxG.save.data.language;
+		}
+		if (FlxG.save.data.langNo != null)
+		{
+			langNo = FlxG.save.data.langNo;
+		}
+		if (FlxG.save.data.langCurSelected != null)
+		{
+			langCurSelected = FlxG.save.data.langCurSelected;
 		}
 
 		var save:FlxSave = new FlxSave();

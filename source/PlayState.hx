@@ -76,18 +76,6 @@ class PlayState extends MusicBeatState
     //weza wtf
 	var siema:BGSprite;
 
-	public static var ratingStuff:Array<Dynamic> = [
-		['You Suck!', 0.2], //From 0% to 19%
-		['Shit', 0.4], //From 20% to 39%
-		['Bad', 0.5], //From 40% to 49%
-		['Bruh', 0.6], //From 50% to 59%
-		['Meh', 0.69], //From 60% to 68%
-		['Nice', 0.7], //69%
-		['Good', 0.8], //From 70% to 79%
-		['Great', 0.9], //From 80% to 89%
-		['Sick!', 1], //From 90% to 99%
-		['Perfect!!', 1] //The value on this one isn't used actually, since Perfect is always "1"
-	];
 	public var modchartTweens:Map<String, FlxTween> = new Map<String, FlxTween>();
 	public var modchartSprites:Map<String, ModchartSprite> = new Map<String, ModchartSprite>();
 	public var modchartTimers:Map<String, FlxTimer> = new Map<String, FlxTimer>();
@@ -118,7 +106,7 @@ class PlayState extends MusicBeatState
 
 	public var songSpeedTween:FlxTween;
 	public var songSpeed(default, set):Float = 1;
-	public var songSpeedType:String = "multiplicative";
+	public var songSpeedType:String = LanguageData.multiplicative[ClientPrefs.langNo];
 	public var noteKillOffset:Float = 350;
 
 	public var boyfriendGroup:FlxSpriteGroup;
@@ -1026,7 +1014,7 @@ class PlayState extends MusicBeatState
 		if(ClientPrefs.downScroll) strumLine.y = FlxG.height - 150;
 		strumLine.scrollFactor.set();
 
-		var showTime:Bool = (ClientPrefs.timeBarType != 'Disabled');
+		var showTime:Bool = (ClientPrefs.timeBarType != LanguageData.timeBarTypeList[ClientPrefs.langNo][3]);
 		timeTxt = new FlxText(STRUM_X + (FlxG.width / 2) - 248, 19, 400, "", 32);
 		timeTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		timeTxt.scrollFactor.set();
@@ -1035,7 +1023,7 @@ class PlayState extends MusicBeatState
 		timeTxt.visible = showTime;
 		if(ClientPrefs.downScroll) timeTxt.y = FlxG.height - 44;
 
-		if(ClientPrefs.timeBarType == 'Song Name')
+		if(ClientPrefs.timeBarType == LanguageData.timeBarTypeList[ClientPrefs.langNo][2])
 		{
 			timeTxt.text = SONG.song;
 		}
@@ -1067,7 +1055,7 @@ class PlayState extends MusicBeatState
 		add(strumLineNotes);
 		add(grpNoteSplashes);
 
-		if(ClientPrefs.timeBarType == 'Song Name')
+		if(ClientPrefs.timeBarType == LanguageData.timeBarTypeList[ClientPrefs.langNo][2])
 		{
 			timeTxt.size = 24;
 			timeTxt.y += 3;
@@ -2201,9 +2189,9 @@ class PlayState extends MusicBeatState
 
 	public function updateScore(miss:Bool = false)
 	{
-		scoreTxt.text = 'Score: ' + songScore
-		+ ' | Misses: ' + songMisses
-		+ ' | Rating: ' + ratingName
+		scoreTxt.text = LanguageData.scoreInfo[ClientPrefs.langNo][0] + ': ' + songScore
+		+ ' | ' + LanguageData.scoreInfo[ClientPrefs.langNo][1] + ': ' + songMisses
+		+ ' | ' + LanguageData.scoreInfo[ClientPrefs.langNo][2] + ': ' + ratingName
 		+ (ratingName != '?' ? ' (${Highscore.floorDecimal(ratingPercent * 100, 2)}%) - $ratingFC' : '');
 
 		if(ClientPrefs.scoreZoom && !miss && !cpuControlled)
@@ -2305,15 +2293,13 @@ class PlayState extends MusicBeatState
 	private function generateSong(dataPath:String):Void
 	{
 		// FlxG.log.add(ChartParser.parse());
-		songSpeedType = ClientPrefs.getGameplaySetting('scrolltype','multiplicative');
+		songSpeedType = ClientPrefs.getGameplaySetting('scrolltype',LanguageData.multiplicative[ClientPrefs.langNo]);
 
-		switch(songSpeedType)
-		{
-			case "multiplicative":
-				songSpeed = SONG.speed * ClientPrefs.getGameplaySetting('scrollspeed', 1);
-			case "constant":
-				songSpeed = ClientPrefs.getGameplaySetting('scrollspeed', 1);
-		}
+		if (songSpeedType == LanguageData.multiplicative[ClientPrefs.langNo])
+			songSpeed = SONG.speed * ClientPrefs.getGameplaySetting('scrollspeed', 1);
+
+		if (songSpeedType == LanguageData.constant[ClientPrefs.langNo])
+			songSpeed = ClientPrefs.getGameplaySetting('scrollspeed', 1);
 
 		var songData = SONG;
 		Conductor.changeBPM(songData.bpm);
@@ -3024,12 +3010,12 @@ class PlayState extends MusicBeatState
 					songPercent = (curTime / songLength);
 
 					var songCalc:Float = (songLength - curTime);
-					if(ClientPrefs.timeBarType == 'Time Elapsed') songCalc = curTime;
+					if(ClientPrefs.timeBarType == LanguageData.timeBarTypeList[ClientPrefs.langNo][1]) songCalc = curTime;
 
 					var secondsTotal:Int = Math.floor(songCalc / 1000);
 					if(secondsTotal < 0) secondsTotal = 0;
 
-					if(ClientPrefs.timeBarType != 'Song Name')
+					if(ClientPrefs.timeBarType != LanguageData.timeBarTypeList[ClientPrefs.langNo][2])
 						timeTxt.text = FlxStringUtil.formatTime(secondsTotal, false);
 				}
 			}
@@ -3672,7 +3658,7 @@ class PlayState extends MusicBeatState
 				if(bgGirls != null) bgGirls.swapDanceType();
 
 			case 'Change Scroll Speed':
-				if (songSpeedType == "constant")
+				if (songSpeedType == LanguageData.constant[ClientPrefs.langNo])
 					return;
 				var val1:Float = Std.parseFloat(value1);
 				var val2:Float = Std.parseFloat(value2);
@@ -5016,15 +5002,15 @@ class PlayState extends MusicBeatState
 				// Rating Name
 				if(ratingPercent >= 1)
 				{
-					ratingName = ratingStuff[ratingStuff.length-1][0]; //Uses last string
+					ratingName = LanguageData.ratingStuff[ClientPrefs.langNo][LanguageData.ratingStuff[ClientPrefs.langNo].length-1][0]; //Uses last string
 				}
 				else
 				{
-					for (i in 0...ratingStuff.length-1)
+					for (i in 0...LanguageData.ratingStuff[ClientPrefs.langNo].length-1)
 					{
-						if(ratingPercent < ratingStuff[i][1])
+						if(ratingPercent < LanguageData.ratingStuff[ClientPrefs.langNo][i][1])
 						{
-							ratingName = ratingStuff[i][0];
+							ratingName = LanguageData.ratingStuff[ClientPrefs.langNo][i][0];
 							break;
 						}
 					}

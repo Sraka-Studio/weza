@@ -39,14 +39,15 @@ class GameplayChangersSubstate extends MusicBeatSubstate
 
 	function getOptions()
 	{
-		var goption:GameplayOption = new GameplayOption('Scroll Type', 'scrolltype', 'string', 'multiplicative', ["multiplicative", "constant"]);
+		var goption:GameplayOption = new GameplayOption(LanguageData.scrolltype[ClientPrefs.langNo], 'scrolltype', 'string', LanguageData.multiplicative[ClientPrefs.langNo], 
+		[LanguageData.multiplicative[ClientPrefs.langNo], LanguageData.constant[ClientPrefs.langNo]]);
 		optionsArray.push(goption);
 
-		var option:GameplayOption = new GameplayOption('Scroll Speed', 'scrollspeed', 'float', 1);
+		var option:GameplayOption = new GameplayOption(LanguageData.scrollspeed[ClientPrefs.langNo], 'scrollspeed', 'float', 1);
 		option.scrollSpeed = 1.5;
 		option.minValue = 0.5;
 		option.changeValue = 0.1;
-		if (goption.getValue() != "constant")
+		if (goption.getValue() != LanguageData.constant[ClientPrefs.langNo])
 		{
 			option.displayFormat = '%vX';
 			option.maxValue = 3;
@@ -66,7 +67,7 @@ class GameplayChangersSubstate extends MusicBeatSubstate
 		option.displayFormat = '%vX';
 		optionsArray.push(option);*/
 
-		var option:GameplayOption = new GameplayOption('Health Gain Multiplier', 'healthgain', 'float', 1);
+		var option:GameplayOption = new GameplayOption(LanguageData.healthgain[ClientPrefs.langNo], 'healthgain', 'float', 1);
 		option.scrollSpeed = 2.5;
 		option.minValue = 0;
 		option.maxValue = 5;
@@ -74,7 +75,7 @@ class GameplayChangersSubstate extends MusicBeatSubstate
 		option.displayFormat = '%vX';
 		optionsArray.push(option);
 
-		var option:GameplayOption = new GameplayOption('Health Loss Multiplier', 'healthloss', 'float', 1);
+		var option:GameplayOption = new GameplayOption(LanguageData.healthloss[ClientPrefs.langNo], 'healthloss', 'float', 1);
 		option.scrollSpeed = 2.5;
 		option.minValue = 0.5;
 		option.maxValue = 5;
@@ -82,13 +83,13 @@ class GameplayChangersSubstate extends MusicBeatSubstate
 		option.displayFormat = '%vX';
 		optionsArray.push(option);
 
-		var option:GameplayOption = new GameplayOption('Instakill on Miss', 'instakill', 'bool', false);
+		var option:GameplayOption = new GameplayOption(LanguageData.instakill[ClientPrefs.langNo], 'instakill', 'bool', false);
 		optionsArray.push(option);
 
-		var option:GameplayOption = new GameplayOption('Practice Mode', 'practice', 'bool', false);
+		var option:GameplayOption = new GameplayOption(LanguageData.practice[ClientPrefs.langNo], 'practice', 'bool', false);
 		optionsArray.push(option);
 
-		var option:GameplayOption = new GameplayOption('Botplay', 'botplay', 'bool', false);
+		var option:GameplayOption = new GameplayOption(LanguageData.botplay[ClientPrefs.langNo], 'botplay', 'bool', false);
 		optionsArray.push(option);
 	}
 
@@ -235,12 +236,12 @@ class GameplayChangersSubstate extends MusicBeatSubstate
 									curOption.curOption = num;
 									curOption.setValue(curOption.options[num]); //lol
 									
-									if (curOption.name == "Scroll Type")
+									if (curOption.name == LanguageData.scrolltype[ClientPrefs.langNo])
 									{
-										var oOption:GameplayOption = getOptionByName("Scroll Speed");
+										var oOption:GameplayOption = getOptionByName(LanguageData.scrollspeed[ClientPrefs.langNo]);
 										if (oOption != null)
 										{
-											if (curOption.getValue() == "constant")
+											if (curOption.getValue() == LanguageData.constant[ClientPrefs.langNo])
 											{
 												oOption.displayFormat = "%v";
 												oOption.maxValue = 6;
@@ -300,7 +301,7 @@ class GameplayChangersSubstate extends MusicBeatSubstate
 						updateTextFrom(leOption);
 					}
 
-					if(leOption.name == 'Scroll Speed')
+					if(leOption.name == LanguageData.scrollspeed[ClientPrefs.langNo])
 					{
 						leOption.displayFormat = "%vX";
 						leOption.maxValue = 3;

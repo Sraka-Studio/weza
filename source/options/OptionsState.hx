@@ -29,24 +29,24 @@ using StringTools;
 
 class OptionsState extends MusicBeatState
 {
-	var options:Array<String> = ['Note Colors', 'Controls', 'Adjust Delay and Combo', 'Graphics', 'Visuals and UI', 'Gameplay'];
+	var options:Array<String> = LanguageData.options[ClientPrefs.langNo];
 	private var grpOptions:FlxTypedGroup<Alphabet>;
 	private static var curSelected:Int = 0;
 	public static var menuBG:FlxSprite;
 
 	function openSelectedSubstate(label:String) {
 		switch(label) {
-			case 'Note Colors':
+			case 'Note Colors' | "Kolory Strzalek":
 				openSubState(new options.NotesSubState());
-			case 'Controls':
+			case 'Controls' | 'Kontrolki':
 				openSubState(new options.ControlsSubState());
-			case 'Graphics':
+			case 'Graphics' | 'Grafika':
 				openSubState(new options.GraphicsSettingsSubState());
-			case 'Visuals and UI':
+			case 'Visuals and UI' | 'Visuale i UI':
 				openSubState(new options.VisualsUISubState());
-			case 'Gameplay':
+			case 'Gameplay' | 'Rozgrywka':
 				openSubState(new options.GameplaySettingsSubState());
-			case 'Adjust Delay and Combo':
+			case 'Adjust Delay and Combo' | 'Opoznienie i Kombo':
 				LoadingState.loadAndSwitchState(new options.NoteOffsetState());
 		}
 	}

@@ -1,3 +1,5 @@
+--kurde dzieki teotm za pomoc
+
 local allowCountdown = false;
 local playDialogue = false;
 
@@ -7,9 +9,14 @@ function onStartCountdown()
 		allowCountdown = true;
 		playDialogue = true;
 		return Function_Stop;
-	elseif playDialogue then
+	elseif playDialogue and getPropertyFromClass('ClientPrefs', 'langNo') == 0 then
 		setProperty('inCutscene', true);
-		runTimer('startDialogue', 0.8);
+		runTimer('startDialoguePL', 0.8);
+		playDialogue = false;
+		return Function_Stop;
+	elseif playDialogue and getPropertyFromClass('ClientPrefs', 'langNo') == 1 then
+		setProperty('inCutscene', true);
+		runTimer('startDialogueENG', 0.8);
 		playDialogue = false;
 		return Function_Stop;
 	end
@@ -17,7 +24,10 @@ function onStartCountdown()
 end
 
 function onTimerCompleted(tag, loops, loopsLeft)
-	if tag == 'startDialogue' then
-		startDialogue('dialogue', 'freakyMenu');
+	if tag == 'startDialoguePL' then
+		startDialogue('dialogue-pl', 'freakyMenu');
+	end
+	if tag == 'startDialogueENG' then
+		startDialogue('dialogue-eng', 'freakyMenu');
 	end
 end

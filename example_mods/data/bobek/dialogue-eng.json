@@ -1,0 +1,92 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Let's gooo"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "wezaa",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "Shut your fucking mouth, you are so goofy ahhhh" 
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "And also french fries" 
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "wezaa",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "Jeez, can you shut up you fucking smurf" 
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Nope"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "wezaa",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": " Alright.. Trash, if you win, you win but if i win... I WIN!..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "And also french fries"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "wezaa",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "STFU"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Nah"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "wezaa",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "Rap or France"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "k"
+		}
+	]
+}
