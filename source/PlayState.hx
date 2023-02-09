@@ -106,7 +106,7 @@ class PlayState extends MusicBeatState
 
 	public var songSpeedTween:FlxTween;
 	public var songSpeed(default, set):Float = 1;
-	public var songSpeedType:String = LanguageData.multiplicative[ClientPrefs.langNo];
+	public var songSpeedType:String = LanguageData.scrolltypeList[ClientPrefs.langNo][ClientPrefs.gameplayChangersScrolltypeListCurSelected];
 	public var noteKillOffset:Float = 350;
 
 	public var boyfriendGroup:FlxSpriteGroup;
@@ -2293,13 +2293,41 @@ class PlayState extends MusicBeatState
 	private function generateSong(dataPath:String):Void
 	{
 		// FlxG.log.add(ChartParser.parse());
-		songSpeedType = ClientPrefs.getGameplaySetting('scrolltype',LanguageData.multiplicative[ClientPrefs.langNo]);
+		songSpeedType = ClientPrefs.getGameplaySetting('scrolltype', LanguageData.scrolltypeList[ClientPrefs.langNo][0]);
 
-		if (songSpeedType == LanguageData.multiplicative[ClientPrefs.langNo])
-			songSpeed = SONG.speed * ClientPrefs.getGameplaySetting('scrollspeed', 1);
-
-		if (songSpeedType == LanguageData.constant[ClientPrefs.langNo])
-			songSpeed = ClientPrefs.getGameplaySetting('scrollspeed', 1);
+		switch (ClientPrefs.langNo)
+		{
+			case 0: // Polish
+				{
+					switch (songSpeedType)
+					{
+						case "mnozny":
+							songSpeed = SONG.speed * ClientPrefs.getGameplaySetting('scrollspeed', 1);
+						case "staly":
+							songSpeed = ClientPrefs.getGameplaySetting('scrollspeed', 1);
+					}
+				}
+			case 1: // English
+				{
+					switch (songSpeedType)
+					{
+						case "multiplicative":
+							songSpeed = SONG.speed * ClientPrefs.getGameplaySetting('scrollspeed', 1);
+						case "constant":
+							songSpeed = ClientPrefs.getGameplaySetting('scrollspeed', 1);
+					}
+				}
+			default:
+				{
+					switch (songSpeedType)
+					{
+						case "multiplicative" | "mnozny":
+							songSpeed = SONG.speed * ClientPrefs.getGameplaySetting('scrollspeed', 1);
+						case "constant" | "staly":
+							songSpeed = ClientPrefs.getGameplaySetting('scrollspeed', 1);
+					}
+				}
+		}
 
 		var songData = SONG;
 		Conductor.changeBPM(songData.bpm);
@@ -3658,7 +3686,7 @@ class PlayState extends MusicBeatState
 				if(bgGirls != null) bgGirls.swapDanceType();
 
 			case 'Change Scroll Speed':
-				if (songSpeedType == LanguageData.constant[ClientPrefs.langNo])
+				if (songSpeedType == LanguageData.scrolltypeList[ClientPrefs.langNo][1])
 					return;
 				var val1:Float = Std.parseFloat(value1);
 				var val2:Float = Std.parseFloat(value2);

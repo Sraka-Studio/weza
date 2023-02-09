@@ -186,5 +186,6 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 		// Put all String ClientPrefs variables here.
 		ClientPrefs.language = LanguageData.languageList[ClientPrefs.langNo][ClientPrefs.langCurSelected];
 		ClientPrefs.timeBarType = LanguageData.timeBarTypeList[ClientPrefs.langNo][ClientPrefs.timeBarTypeCurSelected];
+		ClientPrefs.gameplaySettings.set('scrolltype', LanguageData.scrolltypeList[ClientPrefs.langNo][ClientPrefs.gameplayChangersScrolltypeListCurSelected]);
 	}
 }

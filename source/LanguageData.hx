@@ -205,14 +205,15 @@ class LanguageData
 		"Botplay"
 	];
 
-	public static var multiplicative:Array<String> = [
-		"mnozny",
-		"multiplicative"
-	];
-
-	public static var constant:Array<String> = [
-		"staly",
-		"constant"
+	public static var scrolltypeList:Array<Array<String>> = [
+		[
+			"mnozny",
+			"staly"
+		],
+		[
+			"multiplicative",
+			"constant"
+		]
 	];
 
     //Pause Screen

@@ -39,15 +39,20 @@ class GameplayChangersSubstate extends MusicBeatSubstate
 
 	function getOptions()
 	{
-		var goption:GameplayOption = new GameplayOption(LanguageData.scrolltype[ClientPrefs.langNo], 'scrolltype', 'string', LanguageData.multiplicative[ClientPrefs.langNo], 
-		[LanguageData.multiplicative[ClientPrefs.langNo], LanguageData.constant[ClientPrefs.langNo]]);
+		var goption:GameplayOption = new GameplayOption(LanguageData.scrolltype[ClientPrefs.langNo],
+			'scrolltype',
+			'string',
+			LanguageData.scrolltypeList[ClientPrefs.langNo][ClientPrefs.gameplayChangersScrolltypeListCurSelected],
+			LanguageData.scrolltypeList[ClientPrefs.langNo]
+		);
 		optionsArray.push(goption);
+		goption.onChange = changeScrolltype;
 
 		var option:GameplayOption = new GameplayOption(LanguageData.scrollspeed[ClientPrefs.langNo], 'scrollspeed', 'float', 1);
 		option.scrollSpeed = 1.5;
 		option.minValue = 0.5;
 		option.changeValue = 0.1;
-		if (goption.getValue() != LanguageData.constant[ClientPrefs.langNo])
+		if (goption.getValue() != LanguageData.scrolltypeList[ClientPrefs.langNo][1])
 		{
 			option.displayFormat = '%vX';
 			option.maxValue = 3;
@@ -241,7 +246,7 @@ class GameplayChangersSubstate extends MusicBeatSubstate
 										var oOption:GameplayOption = getOptionByName(LanguageData.scrollspeed[ClientPrefs.langNo]);
 										if (oOption != null)
 										{
-											if (curOption.getValue() == LanguageData.constant[ClientPrefs.langNo])
+											if (curOption.getValue() == LanguageData.scrolltypeList[ClientPrefs.langNo][1])
 											{
 												oOption.displayFormat = "%v";
 												oOption.maxValue = 6;
@@ -373,6 +378,28 @@ class GameplayChangersSubstate extends MusicBeatSubstate
 		for (checkbox in checkboxGroup) {
 			checkbox.daValue = (optionsArray[checkbox.ID].getValue() == true);
 		}
+	}
+
+	function changeScrolltype()
+	{
+		var lol:Int = 0;
+		if(controls.UI_LEFT_P) {
+			lol = -1;
+		}
+		if (controls.UI_RIGHT_P) {
+			lol = 1;
+		}
+		ClientPrefs.gameplayChangersScrolltypeListCurSelected += lol;
+		if (ClientPrefs.gameplayChangersScrolltypeListCurSelected >= LanguageData.scrolltypeList[ClientPrefs.langNo].length) 
+		{
+			ClientPrefs.gameplayChangersScrolltypeListCurSelected = 0;
+		}
+		if (ClientPrefs.gameplayChangersScrolltypeListCurSelected < 0)
+		{
+			ClientPrefs.gameplayChangersScrolltypeListCurSelected = LanguageData.scrolltypeList[ClientPrefs.langNo].length - 1;
+		}
+
+		ClientPrefs.gameplaySettings.set('scrolltype', LanguageData.scrolltypeList[ClientPrefs.langNo][ClientPrefs.gameplayChangersScrolltypeListCurSelected]);
 	}
 }
 

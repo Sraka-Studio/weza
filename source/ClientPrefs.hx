@@ -26,6 +26,7 @@ class ClientPrefs {
 	public static var ghostTapping:Bool = true;
 	public static var timeBarType:String = LanguageData.timeBarTypeList[ClientPrefs.langNo][ClientPrefs.timeBarTypeCurSelected];
 	public static var timeBarTypeCurSelected:Int = 0;
+	public static var gameplayChangersScrolltypeListCurSelected:Int = 0;
 	public static var scoreZoom:Bool = true;
 	public static var noReset:Bool = false;
 	public static var healthBarAlpha:Float = 1;
@@ -35,7 +36,7 @@ class ClientPrefs {
 	public static var checkForUpdates:Bool = true;
 	public static var gameplaySettings:Map<String, Dynamic> = [
 		'scrollspeed' => 1.0,
-		'scrolltype' => LanguageData.multiplicative[langNo], 
+		'scrolltype' => LanguageData.scrolltypeList[ClientPrefs.langNo][ClientPrefs.gameplayChangersScrolltypeListCurSelected], 
 		// anyone reading this, amod is multiplicative speed mod, cmod is constant speed mod, and xmod is bpm based speed mod.
 		// an amod example would be chartSpeed * multiplier
 		// cmod would just be constantSpeed = chartSpeed
@@ -116,6 +117,7 @@ class ClientPrefs {
 		FlxG.save.data.ghostTapping = ghostTapping;
 		FlxG.save.data.timeBarType = timeBarType;
 		FlxG.save.data.timeBarTypeCurSelected = timeBarTypeCurSelected;
+		FlxG.save.data.gameplayChangersScrolltypeListCurSelected = gameplayChangersScrolltypeListCurSelected;
 		FlxG.save.data.scoreZoom = scoreZoom;
 		FlxG.save.data.noReset = noReset;
 		FlxG.save.data.healthBarAlpha = healthBarAlpha;
@@ -210,6 +212,9 @@ class ClientPrefs {
 		if(FlxG.save.data.timeBarTypeCurSelected != null) {
 			timeBarTypeCurSelected = FlxG.save.data.timeBarTypeCurSelected;
 		}
+		if (FlxG.save.data.gameplayChangersScrolltypeListCurSelected != null) {
+			gameplayChangersScrolltypeListCurSelected = FlxG.save.data.gameplayChangersScrolltypeListCurSelected;
+		}
 		if(FlxG.save.data.scoreZoom != null) {
 			scoreZoom = FlxG.save.data.scoreZoom;
 		}
@@ -294,8 +299,14 @@ class ClientPrefs {
 		}
 	}
 
+	/*
+	 * Returns a gameplay setting.
+
+	 * @param name         If `name` is an existing key in `ClientPrefs.gameplaySettings`, the variable the `name` is returned.
+	 * @param defaultValue If `name` is a nonexistent key, `defaultValue` gets returned.
+	 */
 	inline public static function getGameplaySetting(name:String, defaultValue:Dynamic):Dynamic {
-		return /*PlayState.isStoryMode ? defaultValue : */ (gameplaySettings.exists(name) ? gameplaySettings.get(name) : defaultValue);
+		return (gameplaySettings.exists(name) ? gameplaySettings.get(name) : defaultValue);
 	}
 
 	public static function reloadControls() {
