@@ -205,6 +205,17 @@ class LanguageData
 		"Botplay"
 	];
 
+	public static var scrolltypeList:Array<Array<String>> = [
+		[
+			"mnozny",
+			"staly"
+		],
+		[
+			"multiplicative",
+			"constant"
+		]
+	];
+
 	public static var multiplicative:Array<String> = [
 		"mnozny",
 		"multiplicative"
