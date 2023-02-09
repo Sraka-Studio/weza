@@ -301,9 +301,9 @@ class ClientPrefs {
 
 	/*
 	 * Returns a gameplay setting.
-	 * 
-	 * If `name` is an existing key in `gameplaySettings` variable the `name` is returned.
-	 * Otherwise `defaultValue` does.
+
+	 * @param name         If `name` is an existing key in `ClientPrefs.gameplaySettings`, the variable the `name` is returned.
+	 * @param defaultValue If `name` is a nonexistent key, `defaultValue` gets returned.
 	 */
 	inline public static function getGameplaySetting(name:String, defaultValue:Dynamic):Dynamic {
 		return (gameplaySettings.exists(name) ? gameplaySettings.get(name) : defaultValue);

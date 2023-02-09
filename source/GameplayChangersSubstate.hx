@@ -39,18 +39,11 @@ class GameplayChangersSubstate extends MusicBeatSubstate
 
 	function getOptions()
 	{
-		/*(
-			name:String,
-			variable:String,
-			type:String = 'bool',
-			defaultValue:Dynamic = 'null variable value',
-			?options:Array<String> = null)
-		*/
-		var goption:GameplayOption = new GameplayOption(LanguageData.scrolltype[ClientPrefs.langNo], // name:String,
-			'scrolltype', // variable:String,
-			'string', // type:String = 'bool',
-			LanguageData.scrolltypeList[ClientPrefs.langNo][ClientPrefs.gameplayChangersScrolltypeListCurSelected], // defaultValue:Dynamic = 'null variable value',
-			LanguageData.scrolltypeList[ClientPrefs.langNo] // ?options:Array<String> = null
+		var goption:GameplayOption = new GameplayOption(LanguageData.scrolltype[ClientPrefs.langNo],
+			'scrolltype',
+			'string',
+			LanguageData.scrolltypeList[ClientPrefs.langNo][ClientPrefs.gameplayChangersScrolltypeListCurSelected],
+			LanguageData.scrolltypeList[ClientPrefs.langNo]
 		);
 		optionsArray.push(goption);
 		goption.onChange = changeScrolltype;

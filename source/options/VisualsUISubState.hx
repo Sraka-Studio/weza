@@ -48,14 +48,6 @@ class VisualsUISubState extends BaseOptionsMenu
 			false);
 		addOption(option);
 		
-		/*
-		public function new(name:String, 
-			description:String = "",
-			variable:String,
-			type:String = "bool",
-			defaultValue:Dynamic = "null variable value",
-			options:Null<Array<String>> = null):Option
-		*/
 		var option:Option = new Option(LanguageData.timeBarType[ClientPrefs.langNo],
 			LanguageData.timeBarTypeDesc[ClientPrefs.langNo],
 			'timeBarType',
