@@ -216,16 +216,6 @@ class LanguageData
 		]
 	];
 
-	public static var multiplicative:Array<String> = [
-		"mnozny",
-		"multiplicative"
-	];
-
-	public static var constant:Array<String> = [
-		"staly",
-		"constant"
-	];
-
     //Pause Screen
 	public static var resume:Array<String> = [
 		"Graj Dalej",
