@@ -27,10 +27,6 @@ function onSongStart()
     setPropertyFromClass('flixel.FlxG', 'sound.music.volume', 1)
 end
 
-function noteMiss(id, noteData, noteType, isSustainNote)
-	setProperty('health', 0);
-end
-
 function onEvent(name,a,b)
     if name == 'Opponent Notes Right Side' then
         setPropertyFromGroup('playerStrums', 0, 'x', defaultOpponentStrumX0)
