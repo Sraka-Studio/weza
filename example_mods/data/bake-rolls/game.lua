@@ -6,13 +6,11 @@ end
 function onCreatePost()
     triggerEvent('Opponent Notes Right Side', 'among us is', 'not funny')
 
-    setProperty('scoreTxt.visible', false)
-
     setProperty('healthBar.visible', false)
     setProperty('healthBarBG.visible', false)
 
-    setProperty('iconP1.visible', false)
-    setProperty('iconP2.visible', false)
+    setProperty('iconP2.flipX', true)
+    setProperty('iconP1.flipX', true)
 end
 
 function onUpdate()
@@ -21,6 +19,12 @@ function onUpdate()
         triggerEvent('Play Animation', 'wut', 'BF')
         triggerEvent('Change Character', 'BF', 'wezass')
     end
+end
+
+function onUpdatePost()
+    setProperty('iconP2.x', 620)
+    setProperty('iconP1.x', 520)
+    setProperty('iconP2.y', 550)
 end
 
 function onSongStart()
