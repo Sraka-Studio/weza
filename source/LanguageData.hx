@@ -26,7 +26,6 @@ class LanguageData
 		"
         
 
-
 		Hej um poprostu wybierz jezyk ok?"
 	];
 
@@ -50,7 +49,7 @@ class LanguageData
 	public static var creditsDesc:Array<Array<String>> = [
 		// Vs Weza Team
 		[
-			'Wlasciciel, Kompozytor, Artysta i Animator',
+			'Wlasciciel, Artysta i Animator',
 			'Mod Owner, Artist and Animator'
 		],
 		[
@@ -191,7 +190,7 @@ class LanguageData
 	];
 
 	public static var instakill:Array<String> = [
-		"Tryb Hardkor", // goofy ahh nazwa jak prawie kazda
+		"Instakill przy missie",
 		"Instakill on Miss"
 	];
 
@@ -263,7 +262,7 @@ class LanguageData
 	];
 
 	public static var blueballedTxt:Array<String> = [
-		"Niebieskie Pileczki: ",
+		"Glupie Pilki: ",
 		"Blueballed: "
 	];
 
